@@ -15,4 +15,4 @@ else
 fi
 nohup sudo python sensor.py > sensor.log 2> sensor_error.log &
 nohup sudo python computing_resource_monitor.py > computing_resource_monitor.log 2> computing_resource_monitor_error.log &
-nohup sudo python physical_controller.py > computing_resource_monitor.log 2> computing_resource_monitor_error.log &
+nohup sudo python physical_controller.py > physical.log 2> physical_error.log &
