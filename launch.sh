@@ -6,7 +6,7 @@ sleep 3
 cd $current
 cd ../raspin
 nohup npm start > npm_raspin.log 2> npm_raspin_error.log &
-sleep 10
+sleep 15
 cd ../physical_computing.raspberry_zero.raspin_client
 if [ -e ./raspin ]; then
  ln -s ../raspin_client/raspin raspin
